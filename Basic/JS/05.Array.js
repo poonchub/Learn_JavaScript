@@ -5,9 +5,10 @@ Array
         arrName1[0] = 200;
 
         let arrName2 = new Array(data1, data2, data3);
+        let arrName3 = [data1, data2, data3];
 
     วิธีสร้าง 2
-        let arrName3 = newArray[data1, data2, data3];
+        let arrName4 = newArray[data1, data2, data3];
 */
 
 let number = new Array(2);
