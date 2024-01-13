@@ -6,6 +6,13 @@ Object
         };
 
     Method
+        getUser:function(){
+        return this.name+" "+this.email
+        }
+    
+    การเข้าถึง
+        objectName.propertyName
+        objectName["propertyName"]
 
 */
 
@@ -17,8 +24,10 @@ let user = {
     getUser:function(){
         return this.name+" "+this.email
     }
+
 };
 
+// การเข้าถึง
 console.log(user)
 console.log(user.name)
 console.log(user.age)
