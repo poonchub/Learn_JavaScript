@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="welcome()">
+    
+    <div class="box">
+        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure corporis maiores illum dignissimos molestias distinctio, accusamus est libero esse officia. Molestias hic vitae fugit optio obcaecati cum. Porro, consectetur?</p>
+    </div>
+
+    <label for="">Name</label>
+    <input type="text" placeholder="ป้อนชื่อของคุณ" onfocus="hightlight(this)" onblur="unhightlight(this)">  <!-- this คือเอา object ไปใช้งานใน function -->
+
+    <select name="" id="menu" onchange="getMenu()">
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JavaScript">JavaScript</option>
+    </select>
+    <p id="displaymenu"></p>
+
+    <a href="#" onmouseover="hightlight(this)" onmouseout="unhightlight(this)">Page1</a>
+
+    <!-- EventListener -->
+    <a class="link" href="#">Page2</a>
+
+    <script src="../JS/20_DOM_Event.js"></script>
+
+</body>
+</html>
