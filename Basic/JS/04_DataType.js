@@ -15,7 +15,8 @@ Data type
     String to Number
         x = parseInt('Number');
         x = parseFloat('Number');
-        ใช้เครื่องหมาย + ้พิ่มข้างหน้า
+        Number("number");
+        ใช้เครื่องหมาย + เพิ่มข้างหน้า
     Number to String
         ใช้เครื่องหมาย "" + ตัวแปร หรือ ค่าที่เป็นตัวเลข
         ใช้ toString() เช่น x.toString();

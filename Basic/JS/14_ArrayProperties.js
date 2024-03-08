@@ -8,10 +8,9 @@ Array Properties
 
     เรียงลำดับตัวเลข
         console.log(arr)
-
-        arr.sort(function(a, b)){
+        arr.sort(function(a, b){
             return a-b
-        }
+        })
 
     การเพิ่มสมาชิก
         color.push(ค่าที่ค้องการเพิ่ม);
@@ -25,7 +24,6 @@ Array Properties
         let number = [1, 2, 3, 4, 5]
         
         console.forEach(myData);
-
         function myData(item){
             console.log(item);
         }
@@ -39,16 +37,15 @@ Array Properties
         .concat(array ที่จะเอามารวม)
 */
 
-// การเข้าถึงสมาชิก For each
+// การเข้าถึงสมาชิก For loop
 let number = [9, 2, 7, 4, 5]
-
 for (let i=0 ; i<number.length ; i++){
     console.log(number[i]);
 }
 
+// การเข้าถึงสมาชิก For each
 let color = ["red", "green", "blue"]
 color.forEach(myData);
-
 function myData(item){
     console.log(item);
 }

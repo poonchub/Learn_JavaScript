@@ -1,6 +1,6 @@
 /*
 Confirm
-    เป็นหน้าต่างที่ต้องการสอบถามการยืนยันจากผู้ใช้ กก่อนที่จะทำการใดๆ ต่อไป
+    เป็นหน้าต่างที่ต้องการสอบถามการยืนยันจากผู้ใช้ ก่อนที่จะทำการใดๆ ต่อไป
 
         confirm("ข้อความ");
     
@@ -13,6 +13,6 @@ let number = [1, 2, 3, 4, 5]
 function printArray(){
     let status = confirm("ต้องการแสดง Array หรือไม่?")
     if (status == true){
-        console.log(number)
+        document.write(number)
     }
 }
