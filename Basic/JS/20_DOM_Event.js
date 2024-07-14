@@ -14,8 +14,11 @@ DOM Event
         onload=""       เมื่อโหลดเอกสาร/หน้าเว็บเสร็จ         body
         onunload=""     เมื่อยกเลิกการโหลด                 body
 
-    EventListener (แนะนำให้ใช้)
+    คือ เหตุการณ์หรือารกระทำบางอย่างที่เกิดขึ้นกับ element แต่รูปแบบการเขียนจะเขียนในฝั่ง Javascript ทั้งหมด
+
+    โครงสร้าง
         element.addEventListener(event, callback)
+        
 */
 
 function welcome(){
